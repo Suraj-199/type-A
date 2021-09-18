@@ -1,0 +1,558 @@
+/**...........................................*/
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+
+/* font-family: 'Great Vibes', cursive; */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    overflow: hidden;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+/* map styling */
+.map-wrapper{
+  /* background-color: blanchedalmond; */
+  /* background-color: #F85395; */
+  padding: 10px 0 10px 0;
+  background-image: url('map-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.map-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* padding: 0 4px; */
+  margin: 0 auto;
+  /* border: 2px solid black; */
+}
+.right-section{
+  width: 50%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+}
+.left-section{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+}
+.map-container iframe{
+  width: 80%;
+  height: 350px;
+}
+.map-container h3{
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-bottom: 3px solid rgb(155, 45, 45);
+  color: #fad25a;
+  margin: 2px;
+  font-size: 26px;
+  /* font-family: 'Cardo', serif; */
+  /* font-family: 'Cinzel Decorative', cursive; */
+  font-family: 'Cinzel Decorative', cursive;
+  /* border: 2px solid black; */
+}
+.left-section div p{
+  font-size: 28px;
+  padding: 20px 10px;
+  text-align: center;
+  /* font-family: 'Bona Nova', serif; */
+  color: #fad25a;
+  font-family: 'Cookie', cursive;
+  /* border: 2px solid black; */
+  /* margin-top: -20px; */
+}
+#second-para{
+  margin-top: -20px;
+}
+.line{
+  background-color: #FFC37C;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 2px;
+}
+#direction-header{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  /* font-family: 'Cardo', serif; */
+  font-family: 'Cinzel Decorative', cursive;
+  color:#fad25a;
+
+}
+/* form styling */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.s6 {
+  background: url(./no.bg.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 30vw;
+  height: 450px;
+  
+
+background: rgba( 255, 255, 255, 0.1 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  display: flex;
+  padding: 10px;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.form-head1{
+  display: flex;
+  justify-self: center;
+  font-size: 60px;
+  color: rgb(83, 72, 6);
+  justify-content: center;
+  font-family: 'Eczar', serif;
+}
+.form-head2{
+  display: flex;
+  color: rgb(83, 72, 6);
+  
+   font-weight: 100;
+  font-family: 'Dancing Script', cursive;
+}
+
+
+.container .body_txt {
+  flex-basis: 60%;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Dancing Script', cursive;
+}
+.body_txt h1 {
+  font-size: 3vw;
+  line-height: 3vw;
+}
+.body_txt h2 {
+  margin: 5px 0;
+  font-family: 'Dancing Script', cursive;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(83, 72, 6);
+}
+.inps input[type="email"] {
+  background: rgb(251 251 251);
+  border: 2px solid rgb(150, 150, 150);
+  outline: none;
+  width: 90%;
+  padding: 8px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 15px;
+  height: 24px;
+  border-radius: 0.2rem;
+  transition: 0.12s;
+}
+.inps input[type="email"]:focus {
+  border: 2px solid #ff0037;
+  transform: scale(1.1);
+}
+#input {
+  margin-top: 5%;
+  padding: 5%;
+ 
+}
+.inps input[type="name"] {
+  background: rgb(251 251 251);
+  border: 2px solid rgb(150, 150, 150);
+  outline: none;
+  width: 90%;
+  padding: 8px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 15px;
+  height: 24px;
+  border-radius: 0.2rem;
+  transition: 0.12s;
+}
+.inps input[type="name"]:focus {
+  border: 2px solid #ff0037;
+  transform: scale(1.1);
+}
+.inps input[type="number"] {
+  background: rgb(251 251 251);
+  border: 2px solid rgb(150, 150, 150);
+  outline: none;
+  width: 90%;
+  padding: 8px;
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 15px;
+  height: 24px;
+  border-radius: 0.2rem;
+  transition: 0.12s;
+}
+.inps input[type="number"]:focus {
+  border: 2px solid #ff0037;
+  transform: scale(1.1);
+}
+.inps button {
+  width: 90%;
+  height: 39px;
+  padding: 6px;
+  margin-top: 15px;
+  background: #6e003a;
+  color: #fff;
+  border: 1px solid #ff0037;
+  outline: 0;
+  font-family: roboto;
+  font-size: 15px;
+  border-radius: 0.4em;
+  cursor: pointer;
+  transition: 0.2s all;
+  user-select: none;
+}
+
+
+@media screen and (max-width: 870px) {
+  .container {
+    width: 80vw;
+    height: auto;
+    background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.5px );
+    -webkit-backdrop-filter: blur( 3.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+    display: block;
+  }
+
+  .container .img {
+    display: none;
+  }
+  .container .img img {
+    display: none;
+  }
+  .container .body_txt h1 {
+    font-size: 0.8em;
+    line-height: 25px;
+    margin: 5px 0;
+  }
+  .container .inps button {
+    width: 88%;
+  }
+}
+
+/**button submit*/
+/* CSS */
+/* CSS */
+.button-57 {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #18181a;
+    color: #18181a;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 18px 18px 17px;
+    text-decoration: none;
+    cursor: pointer;
+    background: #fff;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-57 span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+  }
+  
+  .button-57 span:last-child {
+    color: white;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(225%) translateX(-50%);
+    height: 14px;
+    line-height: 13px;
+  }
+  
+  .button-57:after {
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+  }
+  
+  .button-57:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+  }
+  
+  .button-57:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+  }
+@media screen and (max-width: 768px){
+  
+/* for responsive map area */
+.map-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0 0;
+}
+.left-section{
+  width: 100%;
+}
+.right-section{
+  width:100%;
+
+}
+.left-section div p{
+  font-size: 20px;
+}
+.map-container iframe{
+  width: 100%;
+  height: 250px;
+}
+}
+
+
+/**leaves*/
+
+/* Defines the position and dimensions of the leafContainer div */
+#leafContainer 
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-left: 50%;
+}
+
+
+/* This CSS rule is applied to all div elements in the leafContainer div.
+   It styles and animates each leafDiv.
+*/
+#leafContainer > div 
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    
+    /* We use the following properties to apply the fade and drop animations to each leaf.
+       Each of these properties takes two values. These values respectively match a setting
+       for fade and drop.
+    */
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-direction: normal, normal;
+    -webkit-animation-timing-function: linear, ease-in;
+}
+
+/* This CSS rule is applied to all img elements directly inside div elements which are
+   directly inside the leafContainer div. In other words, it matches the 'img' elements
+   inside the leafDivs which are created in the createALeaf() function.
+*/
+#leafContainer > div > img {
+     position: absolute;
+     width: 100px;
+     height: 100px;
+
+    /* We use the following properties to adjust the clockwiseSpin or counterclockwiseSpinAndFlip
+       animations on each leaf.
+       The createALeaf function in the Leaves.js file determines whether a leaf has the 
+       clockwiseSpin or counterclockwiseSpinAndFlip animation.
+    */
+     -webkit-animation-iteration-count: infinite;
+     -webkit-animation-direction: alternate;
+     -webkit-animation-timing-function: ease-in-out;
+     -webkit-transform-origin: 50% -100%;
+}
+
+
+/* Hides a leaf towards the very end of the animation */
+@-webkit-keyframes fade
+{
+    /* Show a leaf while into or below 95 percent of the animation and hide it, otherwise */
+    0%   { opacity: 1; }
+    95%  { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+
+/* Makes a leaf fall from -300 to 600 pixels in the y-axis */
+@-webkit-keyframes drop
+{
+    /* Move a leaf to -300 pixels in the y-axis at the start of the animation */
+    0%   { -webkit-transform: translate(0px, -50px); }
+    /* Move a leaf to 600 pixels in the y-axis at the end of the animation */
+    100% { -webkit-transform: translate(0px, 650px); }
+}
+
+/* Rotates a leaf from -50 to 50 degrees in 2D space */
+@-webkit-keyframes clockwiseSpin
+{
+    /* Rotate a leaf by -50 degrees in 2D space at the start of the animation */
+    0%   { -webkit-transform: rotate(-50deg); }
+    /*  Rotate a leaf by 50 degrees in 2D space at the end of the animation */
+    100% { -webkit-transform: rotate(50deg); }
+}
+
+
+/* Flips a leaf and rotates it from 50 to -50 degrees in 2D space */
+@-webkit-keyframes counterclockwiseSpinAndFlip 
+{
+    /* Flip a leaf and rotate it by 50 degrees in 2D space at the start of the animation */
+    0%   { -webkit-transform: scale(-1, 1) rotate(50deg); }
+    /* Flip a leaf and rotate it by -50 degrees in 2D space at the end of the animation */
+    100% { -webkit-transform: scale(-1, 1) rotate(-50deg); }
+}
+
+
+
+/**button on map page*/
+/* CSS */
+.button-73 {
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
+  .btn-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+
+  /**Audio button*/
+  #player-container #play-pause {
+    cursor: pointer;
+    position: fixed;
+    top: 90%;
+    left: 80%;
+    text-indent: -99999px;
+    height:50px;
+    width: 60px;
+    padding: 12px 18px;
+    z-index: 2;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+      background-repeat: no-repeat!important;
+      background-position: center;
+      background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:30px;
+    background-color: #FF5733;
+    overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+    border-radius: 20%;
+    transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+  }
+  @keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+    50% {
+      box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+      transform: translatey(-20px);
+    }
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+      transform: translatey(0px);
+    }
+  }
+  
+  .play {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  }
+  .pause {
+     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+  }
+
+
+
